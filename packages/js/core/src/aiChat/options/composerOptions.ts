@@ -34,4 +34,11 @@ export interface ComposerOptions {
      * @default 'Enter'
      */
     submitShortcut?: 'Enter' | 'CommandEnter';
+    /**
+     * Content to be displayed inside the popover.
+     * If not provided, the popover will not be rendered.
+     *
+     * @default undefined
+     */
+    popoverContent?: any;
 }

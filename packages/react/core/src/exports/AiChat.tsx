@@ -240,6 +240,7 @@ export const AiChat: <AiMsg>(
                             onSubmit={handleSubmitPrompt}
                             onCancel={cancelLastMessageRequest}
                             Loader={uiOverrides.Loader}
+                            popoverContent={props.composerOptions?.popoverContent}
                         />
                     </div>
                 </div>

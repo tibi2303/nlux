@@ -2,7 +2,6 @@ import {ComposerStatus} from '@shared/components/Composer/props';
 import {ReactElement} from 'react';
 
 export type ComposerProps = {
-
     // State and option props
     status: ComposerStatus;
     prompt?: string;
@@ -20,4 +19,7 @@ export type ComposerProps = {
 
     // UI Overrides
     Loader: ReactElement;
+
+    // Popover content
+    popoverContent?: ReactElement; // Marked as optional
 };

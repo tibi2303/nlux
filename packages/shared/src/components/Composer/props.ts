@@ -16,6 +16,11 @@ export type ComposerProps = {
     autoFocus?: boolean;
 
     /**
+     * Content to display inside the popover.
+     */
+    popoverContent?: React.ReactNode;
+
+    /**
      * This will override the disabled state of the submit button when the composer is in 'typing' status.
      * It will not have any impact in the composer 'submitting-prompt', 'submitting-conversation-starter',
      * 'submitting-external-message', and 'waiting' statuses, as the submit button is always disabled in
